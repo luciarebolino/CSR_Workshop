@@ -27,17 +27,48 @@ Before diving into the data, you'll need to set up your environment by installin
     ```bash
     pip install gdal
     ```
-- **Parallel**: A shell tool to execute jobs in parallel for efficient processing.
-- **rasterio**: A Python library for reading and writing geospatial raster data.
-- **gribdoctor**: Utilities to handle quirks in GRIB (General Regularly-distributed Information in Binary) weather data files.
-- **ffmpeg**: A powerful multimedia framework to record, convert, and stream audio and video.
-- **wget**: A command-line utility to download files from the web.
 
-You can install the required utilities using Homebrew on macOS:
+- **Parallel**: GNU Parallel is a shell tool for executing multiple jobs in parallel, making it efficient for processing large datasets.
+  - **Installation**: On macOS, you can install it using Homebrew:
+    ```bash
+    brew install parallel
+    ```
+  - On Linux, you can install it through your package manager, such as:
+    ```bash
+    sudo apt-get install parallel
+    ```
 
-```bash
-brew install parallel wget
-```
+- **rasterio**: Rasterio is a Python library designed for reading and writing geospatial raster data. It provides a clean API that integrates well with NumPy.
+  - **Installation**: Install it via `pip`:
+    ```bash
+    pip install rasterio
+    ```
+
+- **gribdoctor**: Gribdoctor is a set of utilities for handling quirks in GRIB (General Regularly-distributed Information in Binary) weather data files.
+  - **Installation**: You can install `gribdoctor` using `pip`:
+    ```bash
+    pip install gribdoctor
+    ```
+
+- **ffmpeg**: FFmpeg is a powerful multimedia framework used for recording, converting, and streaming audio and video files. It is essential for creating animations from image sequences.
+  - **Installation**: On macOS, install FFmpeg using Homebrew:
+    ```bash
+    brew install ffmpeg
+    ```
+  - On Linux, install it via your package manager:
+    ```bash
+    sudo apt-get install ffmpeg
+    ```
+
+- **wget**: Wget is a command-line utility for downloading files from the web, which we'll use to retrieve data from NOAA’s servers.
+  - **Installation**: On macOS, install it using Homebrew:
+    ```bash
+    brew install wget
+    ```
+  - On Linux, install it through your package manager:
+    ```bash
+    sudo apt-get install wget
+    ```
 
 ### Step 2: Project Directory Setup
 
