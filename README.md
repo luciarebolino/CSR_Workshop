@@ -19,15 +19,9 @@ The tutorial is divided into two parts:
 Before diving into the data, you'll need to set up your environment by installing the necessary tools. Here's a quick overview of the main libraries and utilities we'll be using, along with instructions on how to download and install each one.
 
 - **GDAL**: GDAL (Geospatial Data Abstraction Library) is used for translating and manipulating raster and vector geospatial data formats. You can install GDAL using Homebrew on macOS or through a package manager on Linux.
-  ```bash
-brew install gdal
+- ```bash
+brew install parallel wget
 ```
-Alternatively, you can install it via pip for Python:
-  ```bash
-pip install gdal
-```
-
-- 
 - **Parallel**: A shell tool to execute jobs in parallel for efficient processing.
 - **rasterio**: A Python library for reading and writing geospatial raster data.
 - **gribdoctor**: Utilities to handle quirks in GRIB (General Regularly-distributed Information in Binary) weather data files.
