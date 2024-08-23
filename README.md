@@ -1,11 +1,16 @@
 
 # Visual Code: Weather Open Data Tutorial
 
-This tutorial will guide you through extracting, processing, and visualizing Precipitable Water (PWAT) data from NOAA's Global Forecast System (GFS) model. PWAT is a key metric in weather forecasting, indicating the potential amount of water vapor in the atmosphere that can condense into precipitation, such as rain or snow. While PWAT doesn’t guarantee precipitation, it is essential for understanding the moisture content in the atmosphere and its potential to fuel storms.
+Among the various weather indicators that NOAA and NASA collect and model, Precipitable Water (PWAT) is a crucial variable. PWAT measures the total amount of water vapor in the entire atmosphere above a specific location on Earth's surface. Essentially, it represents the potential amount of water that could be extracted from the atmosphere as rain or snow. When PWAT values are high, the atmosphere is rich with moisture, making it possible for storms to produce large amounts of precipitation. Conversely, low PWAT values indicate a drier atmosphere, reducing the likelihood of significant rainfall.
 
+It’s essential to remember that PWAT by itself doesn’t determine whether precipitation will happen—it only shows the potential for it, depending on the occurrence of other atmospheric processes like thunderstorms. However, it's still a critical measurement collected by satellite instruments and is heavily used in NOAA’s weather forecasting.
+
+In this tutorial, we'll be using two main tools: the Terminal, which allows direct interaction with NOAA’s web interface and database, to work with weather data encoding and formats, and a web code editor (Visual Studio Code in this case, though any similar editor will work) to project this data interactively on the web.
+
+## Tutorial Breakdown:
 The tutorial is divided into two parts: 
-- **Part 1** covers processing and visualizing PWAT data, including creating animated maps that reveal dynamic temporal patterns over 12 days.
-- **Part 2** walks you through projecting the animated video onto a global 3D sphere and creating an interactive web interface.
+- **Part 1** We’ll go through processing and visualizing PWAT data from the 0.25-degree Global Forecast System (GFS). Given how atmospheric rivers and water vapor move dynamically, shaping weather patterns, we’ll explore how to create an animated video map of this data spanning 12 days, revealing complex temporal patterns.
+- **Part 2** We’ll build a simple web interface that projects the animated video globally on a spherical surface, enabling interactive exploration of the data.
 
 ## Part 1: Processing and Visualization of PWAT Data
 
