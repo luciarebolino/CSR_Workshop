@@ -1,5 +1,7 @@
 
 # Visual Code: Weather Open Data Tutorial
+:globe_with_meridians:
+WEB
 
 Among the various weather indicators that NOAA and NASA collect and model, Precipitable Water (PWAT) is a crucial variable. PWAT measures the total amount of water vapor in the entire atmosphere above a specific location on Earth's surface. Essentially, it represents the potential amount of water that could be extracted from the atmosphere as rain or snow. When PWAT values are high, the atmosphere is rich with moisture, making it possible for storms to produce large amounts of precipitation. Conversely, low PWAT values indicate a drier atmosphere, reducing the likelihood of significant rainfall.
 
@@ -180,17 +182,14 @@ This command creates a smooth 30 frames per second (fps) video, ready for furthe
 
 ## Part 2: Creating an Interactive 3D Globe
 
-Now that you’ve created an animated video, you can project it onto a 3D sphere and create an interactive web-based interface using tools like **ESRI** and **ArcGIS**.
+
 
 ### Step 1: Projecting the Video onto a Sphere
 
-Using the ESRI and ArcGIS interface, you can take the animated video and project it onto a 3D globe. By mapping the video frames to the surface of a sphere, you can simulate the movement of water vapor around the Earth’s atmosphere.
-
-The interactive 3D globe allows users to explore temporal and spatial changes in PWAT data dynamically. You can rotate the globe, zoom in on specific regions, and analyze the weather patterns over time.
 
 ### Step 2: Creating a Web Interface
 
-To make your 3D globe accessible to others, you can embed it in a simple web interface. With web technologies like HTML, CSS, and JavaScript, you can create an interactive visualization that users can manipulate directly in their browsers.
+:earth_americas:
 
 ### Step 3: Extending the Tutorial to Other Variables
 
@@ -198,4 +197,3 @@ This tutorial is focused on PWAT, but the process can easily be adapted to visua
 
 ---
 
-This tutorial provides a step-by-step guide to extracting, processing, and visualizing PWAT data, enabling you to explore complex weather patterns in a visually engaging way. By the end of this tutorial, you’ll have an animated map of global PWAT data and an interactive 3D globe, giving you the tools to understand and analyze atmospheric moisture content dynamically.
