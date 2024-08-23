@@ -1,7 +1,7 @@
 
-# Visual Code: Weather Open Data Tutorial
-:globe_with_meridians:
-WEB
+# Visual Code: Weather Open Data Tutorial :globe_with_meridians: :earth_americas:
+
+
 
 Among the various weather indicators that NOAA and NASA collect and model, Precipitable Water (PWAT) is a crucial variable. PWAT measures the total amount of water vapor in the entire atmosphere above a specific location on Earth's surface. Essentially, it represents the potential amount of water that could be extracted from the atmosphere as rain or snow. When PWAT values are high, the atmosphere is rich with moisture, making it possible for storms to produce large amounts of precipitation. Conversely, low PWAT values indicate a drier atmosphere, reducing the likelihood of significant rainfall.
 
